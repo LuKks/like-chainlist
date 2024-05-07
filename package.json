@@ -1,6 +1,6 @@
 {
   "name": "like-chainlist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get RPC providers for any blockchain",
   "main": "index.js",
   "scripts": {
