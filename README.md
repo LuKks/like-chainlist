@@ -26,6 +26,12 @@ const image = await chainlist.icon(selected.icon)
 // => <Buffer ...> or null
 ```
 
+The `list()` also has a minimal RPC list for each network.
+
+Then `networks()` will give you extra RPCs.
+
+## Notes
+
 The `list()` and `networks()` uses different remote APIs.
 
 You might get `networks` that are not in the `list`, and vice versa.
