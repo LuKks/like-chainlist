@@ -1,0 +1,28 @@
+{
+  "name": "like-chainlist",
+  "version": "0.0.0",
+  "description": "Get RPC providers for any blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && brittle test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukks/like-chainlist.git"
+  },
+  "author": "Lucas Barrena (LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukks/like-chainlist/issues"
+  },
+  "homepage": "https://github.com/lukks/like-chainlist#readme",
+  "devDependencies": {
+    "brittle": "^3.3.2",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "jsonrepair": "^3.7.0",
+    "like-fetch": "^2.3.0",
+    "xache": "^1.2.1"
+  }
+}
